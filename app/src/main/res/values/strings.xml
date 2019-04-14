@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MediHelp</string>
+
+    <string name="logo">LOGO</string>
+    <string name="medication">Medication</string>
+    <string name="about">About</string>
+    <string name="hospital">Hospitals</string>
+    <string name="emergency">Emergency</string>
+
+
+    <string name="hospitals">Hospitals in Singapore</string>
+
+
+    <string name="Hospital_title">Hospitals In Singapore</string>
+
+    <string name="btnKKurl">Website</string>
+    <string name="btnKKhotline">Hotline</string>
+    <string name="btnNUHurl">Website</string>
+    <string name="btnNUHhotline">Hotline</string>
+    <string name="btnSGHurl">Website</string>
+    <string name="btnSGHhotline">Hotline</string>
+    <string name="btnTTSurl">Website</string>
+    <string name="btnTTShotline">Hotline</string>
+    <string name="btnKTPurl">Website</string>
+    <string name="btnKTPhotline">Hotline</string>
+    <string name="btnSengkangurl">Website</string>
+    <string name="btnSengkanghotline">Hotline</string>
+
+
+    <string name="enterNo"></string>
+
+    <string name="btnSMS">SAVE NUMBER AND SMS</string>
+
+
+    <string-array name="Days">
+        <item>Options</item>
+        <item>Take 1 Tablet 1 time a day</item>
+        <item>Take 1 Tablet 2 times a day</item>
+        <item>Take 1 Tablet 3 times a day</item>
+        <item>Take half Tablet 1 time a day</item>
+        <item>Take half Tablet 2 times a day</item>
+        <item>Take half Tablet 3 times a day</item>
+    </string-array>
+
+
+    <string name="title_activity_main5_receiver">Main5ActivityReceiver</string>
+
+
+    <string name="textViewPassword">Password</string>
+    <string name="editTextPassword" />
+    <string name="textViewUser">Username</string>
+    <string name="editTextusername" />
+
+    <string name="btnLogin">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="clicktosms">Click to SMS</string>
+
+
+</resources>

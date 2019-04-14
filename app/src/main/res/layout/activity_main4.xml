@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="match_parent"
+        android:layout_height="288dp"
+        android:contentDescription="TODO"
+        app:srcCompat="@drawable/med1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="53dp" />
+
+    <TextView
+        android:id="@+id/textViewAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="This app can save lives, that notify emergency contacts with one click and the party will receive your message immediately. 
+Also, this app can direct you to a wide range of Hospitals in Singapore to their website/contact numbers when needed (Example: Book Appointment)"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+</LinearLayout>

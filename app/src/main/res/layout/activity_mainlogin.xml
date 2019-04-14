@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewLogoLogin"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:srcCompat="@drawable/med1" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="34dp" />
+
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/textViewUser"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter Username"
+        android:inputType="textPersonName"
+        android:text="@string/editTextusername" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/textViewPassword"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:hint="Enter Password"
+        android:inputType="textPersonName"
+        android:text="@string/editTextPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="61dp" />
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="@string/btnLogin"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
